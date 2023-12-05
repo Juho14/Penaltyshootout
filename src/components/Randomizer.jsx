@@ -1,4 +1,3 @@
-// Randomizer.js
 import React, { useState } from 'react';
 
 function Randomizer() {
@@ -74,7 +73,6 @@ function Randomizer() {
                     <button onClick={handleRandomize}>Randomize Again</button>
                 </div>
             ) : (
-                // Show a button to generate the first random scenario.
                 <button onClick={handleRandomize}>Randomize Scenario</button>
             )}
         </div>
