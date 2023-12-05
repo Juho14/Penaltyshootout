@@ -10,7 +10,7 @@ function Penalty() {
 
     return (
         <div className="App">
-            <img src="/goal.png" alt="Football Goal" />
+            <img src="goal.png" alt="Football Goal" />
             <div className="target" style={targetPosition}></div>
             <button onClick={handleShoot}>Shoot</button>
         </div>

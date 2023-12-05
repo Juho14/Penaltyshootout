@@ -42,7 +42,7 @@ function Randomizer() {
             <div className="image-container">
                 <div className="goal-container">
                     <img
-                        src="/football_goal.png"
+                        src="football_goal.png"
                         alt="Football Goal"
                         style={{
                             width: '600px',
@@ -51,7 +51,7 @@ function Randomizer() {
                     />
                     {scenario && (
                         <img
-                            src="/football.png"
+                            src="football.png"
                             alt="Football"
                             className="football-image"
                             style={{
